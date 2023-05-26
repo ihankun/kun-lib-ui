@@ -16,8 +16,15 @@
     "vue",
     "lib"
   ],
+  "files": [
+    "LICENSE",
+    "*.md",
+    "package.json",
+    "dist/*"
+  ],
   "typings": "typings/index.d.ts",
-  "author": "",
+  "author": "hankun <ihankun@outlook.com>",
+  "private": false,
   "license": "ISC",
   "dependencies": {
     "ant-design-vue": "^1.7.8",
