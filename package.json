@@ -26,6 +26,7 @@
   "author": "hankun <ihankun@outlook.com>",
   "private": false,
   "license": "ISC",
+  "registory": "http://registry.npmjs.org",
   "dependencies": {
     "ant-design-vue": "^1.7.8",
     "autoprefixer": "^10.4.13",

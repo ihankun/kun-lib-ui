@@ -3,3 +3,5 @@
 
 ## 使用方法
 npm install kun-lib-ui
+
+## 组件介绍
