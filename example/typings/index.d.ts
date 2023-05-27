@@ -1,5 +1,4 @@
 // import * from 'dist/src/main.d.ts';
-declare module "@msun/base";
-declare module "msun-base";
-declare module "msun-pbr";
+declare module "@ihankun/kun-lib-ui";
+declare module "kun-lib-ui";
 // export as namespace moment1;

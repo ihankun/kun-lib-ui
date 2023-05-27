@@ -39,7 +39,7 @@ export default {
             sourcemap: true
         }
     ],
-      external: ['axios', 'vue','msun-lib-ui','moment','lodash'],
+      external: ['axios', 'vue','kun-lib-ui','moment','lodash'],
     //   extract:"dist/css/index.css",
     //   treeshake:true,
     //   external:['lodash'] //告诉rollup不要将此lodash打包，而作为外部依赖

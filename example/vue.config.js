@@ -6,10 +6,10 @@ module.exports = defineConfig({
   configureWebpack: {
     resolve: {
       alias: {
-        "msun-base": path.resolve(__dirname, "../src/main.ts"),
+        //"kun-lib-ui": path.resolve(__dirname, "../src/main.ts"),
         "@": path.resolve(__dirname, "../src"),
-        "@msun/base": path.resolve(__dirname, "../dist/bundle.js"),
-        "msun-pbr": path.resolve(__dirname, "../dist/bundle.js"),
+        "@ihankun/kun-lib-ui": path.resolve(__dirname, "../dist/bundle.js"),
+        "kun-lib-ui": path.resolve(__dirname, "../dist/bundle.js"),
       },
     },
   },
