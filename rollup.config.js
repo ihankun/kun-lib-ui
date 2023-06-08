@@ -6,7 +6,8 @@ import cjs from '@rollup/plugin-commonjs';
 import path from 'path';
 import { babel } from '@rollup/plugin-babel';
 import ts from "rollup-plugin-typescript2"
-import { terser } from "rollup-plugin-terser"
+//import { terser } from "rollup-plugin-terser"
+import terser from "@rollup/plugin-terser";
 import less from 'rollup-plugin-less';
 import postcss from "rollup-plugin-postcss";
 import scss from 'rollup-plugin-scss'
