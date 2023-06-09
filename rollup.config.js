@@ -1,5 +1,5 @@
 import vue from 'rollup-plugin-vue'
-import typescript from '@rollup/plugin-typescript';
+//import typescript from '@rollup/plugin-typescript';
 import alias from '@rollup/plugin-alias';
 import resolve from '@rollup/plugin-node-resolve';
 import cjs from '@rollup/plugin-commonjs';
@@ -8,10 +8,10 @@ import { babel } from '@rollup/plugin-babel';
 import ts from "rollup-plugin-typescript2"
 //import { terser } from "rollup-plugin-terser"
 import terser from "@rollup/plugin-terser";
-import less from 'rollup-plugin-less';
+//import less from 'rollup-plugin-less';
 import postcss from "rollup-plugin-postcss";
-import scss from 'rollup-plugin-scss'
-import css from 'rollup-plugin-css-only';
+//import scss from 'rollup-plugin-scss'
+//import css from 'rollup-plugin-css-only';
 // import dts from "rollup-plugin-dts";
 import autoprefixer from 'autoprefixer';
 import json from '@rollup/plugin-json';
@@ -40,7 +40,7 @@ export default {
             sourcemap: true
         }
     ],
-      external: ['axios', 'vue','kun-lib-ui','moment','lodash'],
+      external: ['axios', 'vue','moment','lodash'],
     //   extract:"dist/css/index.css",
     //   treeshake:true,
     //   external:['lodash'] //告诉rollup不要将此lodash打包，而作为外部依赖
